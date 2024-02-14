@@ -616,6 +616,9 @@ margin-right: 80px;
   .profile-text{
     width: 350px;
   }
+  .profile-text h1{
+    font-size: 2rem;;
+  }
   .FirstElement .profile-text p{
     text-align: justify;
   }
@@ -640,12 +643,43 @@ margin-right: 80px;
     max-width: 100%;
     margin-top: 30px;
   }
-  .project{
-    flex-basis: 100%;
-    margin-bottom: 30px;
+  .project-content{
+  margin-top: -115%;
+  }
+  
+  .project i{
+    font-size: 32px;
+    height: 59px;
+    width: 54px;
   }
 
+  .fa-solid fa-car{
+   font-size: 7px;
+  }
+  .project{
+    flex-basis: 100%;
+    margin-bottom: 90px;
+    max-width: 100%;
+  }
+ .skills-content{
+  /* width: 350px; */
+  margin-top: -25%;
+  margin-left: -149px;
+ }
+ .skill{
+  flex-basis: 100%;
+  margin-bottom: 90px;
+  max-width: 100%;
+ }
+.project-title{
+  flex-basis: 100%;
+  margin-bottom: 90px;
+  max-width: 100%;
 }
+#project2{
+margin-top: -22px;
 
+
+}
 
 
