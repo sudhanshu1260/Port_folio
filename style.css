@@ -124,7 +124,9 @@ body{
    border-radius: 50%;
    overflow: hidden;
    border: 15px solid #444444;
+   margin-left: 130px;
    box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5)
+   
  }
  profile-photo .img{
    height: 100%;
@@ -345,6 +347,7 @@ body{
   display: flex;
   justify-content:space-between;
   flex-wrap: wrap;
+  
 }
 .project{
     /* padding: 30px 15px; */
@@ -357,6 +360,7 @@ body{
     text-align: center;
     flex-basis: 32%;
     transition: .3s;
+    margin-bottom: 30px;
 }
 .project i{
   background-color: #fed700;
@@ -378,12 +382,13 @@ body{
 .project:hover{
   border-color: #fed700;
 }
-#project2{
+.project project2{
   margin-top: 28px;
   height: 400px;
   margin-left: 190px;
+
 }
-#project3{
+.project project3{
   margin-top: 28px;
   height: 400px;
   margin-right: 190px;
@@ -611,7 +616,9 @@ margin-right: 80px;
   }
   .header i{
     color: #e5e5e5;
-  }
+    display: block;
+    }
+  
 
   .profile-text{
     width: 350px;
@@ -662,14 +669,14 @@ margin-right: 80px;
     max-width: 100%;
   }
  .skills-content{
-  /* width: 350px; */
-  margin-top: -25%;
+  width: 350px;
+  margin-top: -120%;
   margin-left: -149px;
  }
  .skill{
   flex-basis: 100%;
-  margin-bottom: 90px;
-  max-width: 100%;
+  margin-bottom: 57px;
+  max-width: 92%;
  }
 .project-title{
   flex-basis: 100%;
@@ -678,8 +685,19 @@ margin-right: 80px;
 }
 #project2{
 margin-top: -22px;
-
-
+margin-left: 0%;
+}
+#project3{
+  margin-top: -22px;
+  margin-left: 0%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 90%;
+  }
+.FirstElement .profile-photo{
+  margin-left: 26px;
+}
+ 
 }
 
 
